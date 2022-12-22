@@ -1,0 +1,17 @@
+Props
+1. to send data from parent component to c component
+2. inbuit Object
+
+
+
+font awesome cdn
+font awesome
+
+
+let arr[
+    {name: "HTML"},
+    {name: "CSS"},
+    {name: "JS"},
+    {name: "REACT JS"},
+
+]

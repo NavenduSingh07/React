@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#nav>article{
+    height: 65px;
+    width: 95%;
+    /* border: 2px solid black;  */
+    display: flex;
+}
+#nav>article>.Logo{
+    height: 10px;
+    width: 10%;
+    /* background-color: aquamarine; */
+}
+#nav>article>.Menu{
+    height: auto;
+    width: 50%;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+
+}
+#nav>article>.Contact{
+    height: 65px;
+    width: 50%;
+    display: flex;
+    /* background-color: coral; */
+}
+#nav>article>.Contact>.div1{
+    height: auto;
+    width: 70%;
+}
+#nav>article>.Contact>.div2{
+    height: auto;
+    width: 30%;
+}
+#nav>article>.Menu>ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65px;
+}
+#nav>article>.Menu>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gainsboro;
+}
+/* #nav>article>.Contact>ol.div1>ol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65px;
+}
+#nav>article>.Contact>.div1>ol>li{
+    list-style-type: none;
+    color: gainsboro;
+} */
+#nav>article>.Contact>.div1>ol>li>a{
+    text-decoration: none;
+    color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+}

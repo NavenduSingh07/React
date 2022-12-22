@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+#Nav{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.Logo{
+    height: 65px;
+    width: 27%;
+}
+#nav>article>.Menu{
+    height: 72px;
+    width: 50%;
+    background-color: bisque;
+}
+#nav>article>div>.menu>ul>li>a{
+    height: 50px;
+    width: 28%;
+    justify-content: center;
+    display: flex;
+}

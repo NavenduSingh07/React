@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#nav>article {
+    height: 100px;
+    width: 98%;
+    display: flex;
+}
+#nav>article>.Logo {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.Logo>svg {
+    width: 25%;
+    fill: black;
+    text-align: center;
+}
+#nav>article>.Logo>svg>#cn {
+    display: flex;
+    border-top-left-radius: 1%;
+}
+#nav>article>.menu>ol {
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+#nav>article>.menu>ol>li>a {
+    margin: 5px;
+    padding: 5px;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    
+}
+#menu>ol>li>a:hover {
+    color: black;
+    letter-spacing: .5px;
+}
+#sfcon>ol {
+    list-style-type: none;
+    display: flex;
+    padding: 3em;
+    justify-content: space-evenly;
+}
+#sfcon>ol>li>a {
+    margin: 5px;
+    padding: 5px;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    align-items: center;
+}
+#sfcon>ol>li>a:hover {
+    color: black;
+    letter-spacing: .5px;
+}
+
+#ul:hover {
+    text-decoration: underline;
+}
+.custIndia {
+    text-align: end;
+    font-size: 10px;
+}

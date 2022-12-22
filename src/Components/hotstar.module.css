@@ -1,0 +1,55 @@
+/* #nav{
+    background-color: black;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 72px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:center ;
+
+}
+#nav>article{
+    height: 72px;
+    width: 85%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+#nav>article>.Logo{
+    height: 72px;
+    width: 85%;
+    /* border: 2px Solid white; */
+    display: flex;
+    align-items: center;
+    
+}
+#nav>article>.Menu{
+    height: 72px;
+    width: 50%;
+    background-color: bisque; 
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    
+    
+    
+}
+#nav>article>.Menu>ul>li>a{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    float: left;
+
+}
+.btn{
+    background-color: blue;
+}
+.btn2{
+    background-color: blueviolet;
+}
